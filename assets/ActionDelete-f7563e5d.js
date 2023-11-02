@@ -1,0 +1,1 @@
+import{r,j as s}from"./index-5c44cf89.js";import{L as n}from"./LoadingButton-35a5f9c8.js";const d=({isLoading:a,callback:e})=>{const[o,t]=r.useState(!1);return s(n,{loading:o,color:"error",variant:"contained",size:"small",onClick:async()=>{t(!0),e()},children:"ELIMINAR"})};export{d as A};
